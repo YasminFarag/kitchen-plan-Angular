@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Leanne ",
+    "status": "Avaliable"
+  },
+  {
+    "id": 2,
+    "name": "Ervin",
+    "status": "Avaliable"
+  },
+  {
+    "id": 3,
+    "name": "Clementine",
+    "status": "out of office"
+  },
+  {
+    "id": 4,
+    "name": "Patricia",
+    "status": "Avaliable"
+  },
+  {
+    "id": 5,
+    "name": "Chelsey",
+    "status": "Avaliable"
+  },
+  {
+    "id": 6,
+    "name": "Alex",
+    "status": "out of office"
+  },
+  { 
+    "id": 7,
+    "name": "Jodi",
+    "status": "Avaliable"
+  }
+]

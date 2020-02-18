@@ -1,0 +1,14 @@
+[
+  { "workingDay": "Mon", "time": "Morning", "time": "Morning" },
+  { "workingDay": "Mon", "time": "Evening", "time": "Evening" },
+
+  { "workingDay": "Tue", "time": "Morning", "time": "Morning" },
+  { "workingDay": "Tue", "time": "Evening", "time": "Evening" },
+  { "workingDay": "Wed", "time": "Morning", "time": "Morning" },
+  { "workingDay": "Wed", "time": "Evening", "time": "Evening" },
+  { "workingDay": "Thu", "time": "Morning", "time": "Morning" },
+  { "workingDay": "Thu", "time": "Evening", "time": "Evening" },
+  { "workingDay": "Fri", "time": "Morning", "time": "Morning" },
+
+  { "workingDay": "Fri", "time": "Evening", "time": "Evening" }
+]

@@ -1,0 +1,14 @@
+<p class="centertext">{{ today | date:'fullDate' }}</p>
+
+<table class="table" *ngFor="let data of lastResult">
+  <thead>
+    <tr>
+      <th scope="col">{{ data.workingDay }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{ data.time }} : {{ data.name }}</td>
+    </tr>
+  </tbody>
+</table>

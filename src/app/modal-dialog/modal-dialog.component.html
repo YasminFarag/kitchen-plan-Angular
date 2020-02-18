@@ -1,0 +1,20 @@
+<h7 mat-dialog-title>Employees Statues</h7>
+<ul
+  *ngFor="let employee of employees"
+  [ngStyle]="{ color: employee.status === 'Avaliable' ? 'green' : 'red' }"
+>
+  <li>{{ employee.name }} {{ employee.status }}</li>
+</ul>
+<div class="modal-footer">
+  <button
+    type="button"
+    class="btn btn-info"
+    data-dismiss="modal"
+    mat-button
+    mat-dialog-close
+  >
+    Close
+  </button>
+</div>
+<!-- <button mat-button mat-dialog-close>Cancel</button> -->
+<!-- ng-class="{red: item.name === 'xxx', yellow: item.name === 'yyy'}" -->
