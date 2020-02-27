@@ -7,7 +7,7 @@ import { EmployeesService } from "../services/employees.service";
   styleUrls: ["./modal-dialog.component.css"]
 })
 export class modalDialogComponent implements OnInit {
-  public employees = [];
+  public employees: any = [];
   //showModal :boolean= true
 
   constructor(private _employeesService: EmployeesService) {}
@@ -15,7 +15,6 @@ export class modalDialogComponent implements OnInit {
   /* toggleModal() :void {
     this.showModal = !this.showModal
   } */
-
 
   ngOnInit(): void {
     this._employeesService
@@ -26,5 +25,11 @@ export class modalDialogComponent implements OnInit {
 
     /*  this.stringfiedData = JSON.stringify(this.myData);
       console.log('stringfied ', this.stringfiedData) */
+  }
+
+  change(employee) {
+    this.employees.find(element => {
+      return element.id == employee.id;
+    }).status = "Avaliable";
   }
 }

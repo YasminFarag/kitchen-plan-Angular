@@ -4,9 +4,10 @@
   [ngStyle]="{ color: employee.status === 'Avaliable' ? 'green' : 'red' }"
 >
   <li>{{ employee.name }} {{ employee.status }}</li>
+  <button (click)="change(employee)">change</button>
 </ul>
 <div class="modal-footer">
-  <button
+  <!--  <button
     type="button"
     class="btn btn-info"
     data-dismiss="modal"
@@ -14,7 +15,7 @@
     mat-dialog-close
   >
     Close
-  </button>
+  </button> -->
 </div>
 <!-- <button mat-button mat-dialog-close>Cancel</button> -->
 <!-- ng-class="{red: item.name === 'xxx', yellow: item.name === 'yyy'}" -->
