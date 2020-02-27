@@ -37,6 +37,7 @@ export class CalendarComponent implements OnInit {
       );
 
       this.calculate = this.weeks.length - this.filteredEmployee.length;
+      // takes a copy from the filtered employee
       this.employeeCopy = this.filteredEmployee.slice();
       this.newEmploy = this.employeeCopy.splice(0, this.calculate);
       //merg two arrays in one array through the spread operator
