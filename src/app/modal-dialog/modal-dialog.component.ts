@@ -31,10 +31,10 @@ export class modalDialogComponent implements OnInit {
     this.employees.find(element => {
       return element.id == employee.id;
     }).status = "Avaliable";
-    // if (status === "Avaliable") {
-    //   return "out of office";
-    // } else if (status === "out of office") {
-    //   return "Avaliable";
-    // }
+    /* if (status === "Avaliable") {
+      return "out of office";
+    } else if (status === "out of office") {
+      return "Avaliable";
+    } */
   }
 }
