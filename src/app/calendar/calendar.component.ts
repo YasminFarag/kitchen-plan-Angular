@@ -39,6 +39,7 @@ export class CalendarComponent implements OnInit {
       this.calculate = this.weeks.length - this.filteredEmployee.length;
       // takes a copy from the filtered employee
       this.employeeCopy = this.filteredEmployee.slice();
+      // splice() changes the original array, returns the removed items in the array
       this.newEmploy = this.employeeCopy.splice(0, this.calculate);
       //merg two arrays in one array through the spread operator
       this.finishedEmployeeArray = [
@@ -53,10 +54,10 @@ export class CalendarComponent implements OnInit {
       });
 
       console.log("filtered", this.filteredEmployee);
-      console.log(this.calculate);
-      console.log(this.filteredEmployee);
+      console.log("subtracting ", this.calculate);
+      console.log("filtered :", this.filteredEmployee);
       console.log(this.weeks);
-      console.log("employess", this.employeeCopy);
+      console.log("employess copy : ", this.employeeCopy);
       console.log("new Employee Array", this.newEmploy);
       console.log("finished Array", this.finishedEmployeeArray);
       console.log("lastResult", this.lastResult);
