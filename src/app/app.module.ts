@@ -20,7 +20,7 @@ import { CalendarComponent } from './calendar/calendar.component';
     BrowserAnimationsModule,
     HttpClientModule
   ],
-
+// A provider is an instruction to the Dependency Injection system on how to obtain a value for a dependency. Most of the time, these dependencies are services that you create and provide
   providers: [EmployeesService],
   bootstrap: [AppComponent]
 })

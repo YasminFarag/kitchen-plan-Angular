@@ -18,7 +18,7 @@ export class AppComponent {
     this.showModal = !this.showModal;
   }
 
-  employeesStatus() {
+  /* employeesStatus() {
    let dialogRef= this.dialog.open(modalDialogComponent, {
       height: "500px",
       width: "250px"
@@ -27,7 +27,7 @@ export class AppComponent {
       console.log('dialog Closed');
       
     })
-  }
+  } */
 
   ngOnInit() {}
 }
